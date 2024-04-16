@@ -12,7 +12,6 @@ import {
 import './WeatherApp.css';
 
 const WeatherApp = () => {
-  // const api_key = '2be0334d89f1cc38d8e0c4d88fe0183f';
   const api_key = process.env.REACT_APP_API_KEY;
 
   const [icon, setIcon] = useState(CloudIcon);
